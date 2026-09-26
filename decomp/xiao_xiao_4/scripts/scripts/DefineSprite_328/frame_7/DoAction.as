@@ -1,0 +1,9 @@
+stop();
+tellTarget("/temp01")
+{
+   play();
+}
+tellTarget("/xuezhi")
+{
+   gotoAndStop(2);
+}

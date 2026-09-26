@@ -1,0 +1,19 @@
+on(press){
+   gotoAndPlay(15);
+   tellTarget("/02g/02g02")
+   {
+      gotoAndStop(16);
+   }
+   tellTarget("/qiangl")
+   {
+      play();
+   }
+   tellTarget("/drag_01/hua")
+   {
+      gotoAndPlay(2);
+   }
+   tellTarget("/js01/0001")
+   {
+      play();
+   }
+}

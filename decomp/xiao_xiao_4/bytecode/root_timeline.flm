@@ -1,0 +1,7646 @@
+Parsing 'originals/xiao_xiao_4.swf':
+  // SWF compression: none
+  // SWF version: 5
+  // number of frames: 903
+  // frame rate: 18 fps
+  // resolution: 500x375 px
+
+  frame 0
+    push 0.0, 'Mouse'
+    getVariable
+    push 'show'
+    callMethod
+    pop
+  end // of frame 0
+
+  defineMovieClip 2 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 2
+
+  defineMovieClip 5 // total frames: 100
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 99
+      stop
+    end // of frame 99
+  end // of defineMovieClip 5
+
+  defineMovieClip 11 // total frames: 1
+  end // of defineMovieClip 11
+
+  defineMovieClip 38 // total frames: 41
+  end // of defineMovieClip 38
+
+  frame 1
+    constants 'byteloaded', '_root', 'getBytesLoaded', 'bytetotal', 'getBytesTotal', 'loaded', 't', 'percent', '%  ( ', ' K / ', ' K )', '\rœ¬‘ÿÀŸ∂»£∫', ' K/s', 'load_bar', 'gotoAndStop'  
+    push c:0, 0.0, c:1
+    getVariable
+    push c:2
+    callMethod
+    setVariable
+    push c:3, 0.0, c:1
+    getVariable
+    push c:4
+    callMethod
+    setVariable
+    push c:5, c:0
+    getVariable
+    push c:3
+    getVariable
+    divide
+    push 100
+    multiply
+    int
+    setVariable
+    push c:6
+    getTimer
+    setVariable
+    push c:7, c:5
+    getVariable
+    push c:8
+    add
+    push c:0
+    getVariable
+    push 1000
+    divide
+    int
+    add
+    push c:9
+    add
+    push c:3
+    getVariable
+    push 1000
+    divide
+    int
+    add
+    push c:10
+    add
+    setVariable
+    push c:7, c:7
+    getVariable
+    push c:11
+    add
+    push c:0
+    getVariable
+    push c:6
+    getVariable
+    divide
+    push 100
+    multiply
+    int
+    push 100
+    divide
+    add
+    push c:12
+    add
+    setVariable
+    push c:5
+    getVariable
+    push 1, c:13
+    getVariable
+    push c:14
+    callMethod
+    pop
+  end // of frame 1
+
+  frame 13
+    push 'byteloaded'
+    getVariable
+    push 'bytetotal'
+    getVariable
+    equals
+    not
+    branchIfTrue label1
+    gotoFrame 14
+    play
+    branch label2
+   label1:
+    gotoFrame 1
+    play
+   label2:
+  end // of frame 13
+
+  frame 29
+    stop
+  end // of frame 29
+
+  defineMovieClip 42 // total frames: 1
+  end // of defineMovieClip 42
+
+  defineMovieClip 45 // total frames: 1
+  end // of defineMovieClip 45
+
+  defineMovieClip 110 // total frames: 1
+  end // of defineMovieClip 110
+
+  defineMovieClip 113 // total frames: 1
+  end // of defineMovieClip 113
+
+  defineMovieClip 166 // total frames: 12
+  end // of defineMovieClip 166
+
+  defineMovieClip 167 // total frames: 54
+  end // of defineMovieClip 167
+
+  defineMovieClip 179 // total frames: 1
+  end // of defineMovieClip 179
+
+  defineMovieClip 186 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 186
+
+  defineMovieClip 226 // total frames: 1
+  end // of defineMovieClip 226
+
+  defineMovieClip 241 // total frames: 1
+  end // of defineMovieClip 241
+
+  defineMovieClip 242 // total frames: 34
+
+    frame 33
+      stop
+    end // of frame 33
+  end // of defineMovieClip 242
+
+  defineMovieClip 244 // total frames: 1
+  end // of defineMovieClip 244
+
+  defineMovieClip 246 // total frames: 1
+  end // of defineMovieClip 246
+
+  defineMovieClip 248 // total frames: 1
+  end // of defineMovieClip 248
+
+  defineMovieClip 250 // total frames: 1
+  end // of defineMovieClip 250
+
+  defineMovieClip 251 // total frames: 8
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 251
+
+  defineMovieClip 253 // total frames: 1
+  end // of defineMovieClip 253
+
+  defineMovieClip 254 // total frames: 13
+
+    frame 12
+      stop
+    end // of frame 12
+  end // of defineMovieClip 254
+
+  defineButton 267
+
+    on overDownToOverUp
+      setTarget '/'
+        gotoFrame 32
+        play
+      end
+    end
+  end // of defineButton 267
+
+  defineButton 271
+
+    on overDownToOverUp
+      setTarget '/'
+        play
+      end
+    end
+  end // of defineButton 271
+
+  defineMovieClip 272 // total frames: 1
+  end // of defineMovieClip 272
+
+  defineMovieClip 274 // total frames: 1
+  end // of defineMovieClip 274
+
+  defineMovieClip 275 // total frames: 250
+
+    frame 87
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 87
+
+    frame 109
+      setTarget '/l02'
+        play
+      end
+    end // of frame 109
+
+    frame 249
+      setTarget '/'
+        play
+      end
+    end // of frame 249
+  end // of defineMovieClip 275
+
+  frame 30
+    stop
+  end // of frame 30
+
+  defineMovieClip 277 // total frames: 1
+  end // of defineMovieClip 277
+
+  defineMovieClip 279 // total frames: 1
+  end // of defineMovieClip 279
+
+  defineMovieClip 281 // total frames: 1
+  end // of defineMovieClip 281
+
+  defineMovieClip 282 // total frames: 1
+  end // of defineMovieClip 282
+
+  defineMovieClip 283 // total frames: 66
+
+    frame 30
+      stop
+      setTarget '/l01'
+        play
+      end
+    end // of frame 30
+
+    frame 65
+      stop
+    end // of frame 65
+  end // of defineMovieClip 283
+
+  frame 31
+    gotoFrame 34
+    play
+  end // of frame 31
+
+  frame 33
+    gotoFrame 230
+  end // of frame 33
+
+  defineMovieClip 289 // total frames: 1
+  end // of defineMovieClip 289
+
+  defineMovieClip 292 // total frames: 1
+  end // of defineMovieClip 292
+
+  defineMovieClip 293 // total frames: 20
+  end // of defineMovieClip 293
+
+  defineButton 294
+
+    on overDownToOverUp
+      gotoFrame 229
+      play
+    end
+  end // of defineButton 294
+
+  defineButton 298
+
+    on overDownToOverUp
+      gotoFrame 34
+      play
+    end
+  end // of defineButton 298
+
+  defineMovieClip 301 // total frames: 15
+  end // of defineMovieClip 301
+
+  defineMovieClip 305 // total frames: 1
+  end // of defineMovieClip 305
+
+  defineMovieClip 306 // total frames: 1
+  end // of defineMovieClip 306
+
+  defineMovieClip 308 // total frames: 1
+  end // of defineMovieClip 308
+
+  defineMovieClip 309 // total frames: 19
+  end // of defineMovieClip 309
+
+  defineMovieClip 311 // total frames: 17
+  end // of defineMovieClip 311
+
+  defineMovieClip 313 // total frames: 15
+  end // of defineMovieClip 313
+
+  defineMovieClip 315 // total frames: 13
+  end // of defineMovieClip 315
+
+  defineMovieClip 317 // total frames: 9
+  end // of defineMovieClip 317
+
+  defineMovieClip 320 // total frames: 20
+  end // of defineMovieClip 320
+
+  defineMovieClip 321 // total frames: 4
+  end // of defineMovieClip 321
+
+  defineMovieClip 322 // total frames: 6
+  end // of defineMovieClip 322
+
+  defineMovieClip 326 // total frames: 7
+  end // of defineMovieClip 326
+
+  defineMovieClip 328 // total frames: 19
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 1
+
+    frame 2
+      stop
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 2
+
+    frame 3
+      stop
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 3
+
+    frame 4
+      stop
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 4
+
+    frame 5
+      stop
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 5
+
+    frame 6
+      stop
+      setTarget '/temp01'
+        play
+      end
+      setTarget '/xuezhi'
+        gotoFrame 1
+      end
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      gotoFrame 7
+    end // of frame 8
+
+    frame 14
+      stop
+    end // of frame 14
+
+    frame 15
+      stop
+      gotoFrame 14
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 15
+
+    frame 16
+      stop
+      gotoFrame 14
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 16
+
+    frame 17
+      stop
+      gotoFrame 14
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 17
+
+    frame 18
+      stop
+      gotoFrame 14
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 18
+  end // of defineMovieClip 328
+
+  defineMovieClip 330 // total frames: 1
+  end // of defineMovieClip 330
+
+  defineMovieClip 331 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+      push 0.0, 'Mouse'
+      getVariable
+      push 'show'
+      callMethod
+      pop
+      setTarget '/drag_01/drag_01a'
+        gotoFrame 1
+      end
+      setTarget '/geme0'
+        nextFrame
+      end
+    end // of frame 1
+  end // of defineMovieClip 331
+
+  defineMovieClip 335 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 335
+
+  defineMovieClip 336 // total frames: 10
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+      gotoFrame 1
+      play
+    end // of frame 7
+
+    frame 8
+      gotoFrame 7
+    end // of frame 8
+
+    frame 9
+      gotoFrame 7
+    end // of frame 9
+  end // of defineMovieClip 336
+
+  defineMovieClip 339 // total frames: 6
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 339
+
+  defineMovieClip 340 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 340
+
+  defineMovieClip 341 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 341
+
+  defineMovieClip 342 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 342
+
+  defineMovieClip 343 // total frames: 6
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 343
+
+  defineMovieClip 344 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 344
+
+  defineMovieClip 347 // total frames: 1
+  end // of defineMovieClip 347
+
+  defineButton 349
+
+    on keyPress _SPACE
+      gotoFrame 24
+      play
+      setTarget '/drag_01'
+        gotoFrame 0
+      end
+    end
+  end // of defineButton 349
+
+  defineMovieClip 351 // total frames: 10
+  end // of defineMovieClip 351
+
+  defineMovieClip 352 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 352
+
+  defineMovieClip 354 // total frames: 26
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      setTarget 'dj01'
+        play
+      end
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      setTarget 'dj02'
+        play
+      end
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      setTarget 'dj03'
+        play
+      end
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      setTarget 'dj04'
+        play
+      end
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      setTarget 'dj05'
+        play
+      end
+    end // of frame 9
+
+    frame 10
+      stop
+    end // of frame 10
+
+    frame 11
+      setTarget 'dj06'
+        play
+      end
+    end // of frame 11
+
+    frame 12
+      stop
+      setTarget '/drag_01'
+        gotoFrame 1
+      end
+    end // of frame 12
+
+    frame 14
+      gotoFrame 12
+    end // of frame 14
+
+    frame 15
+      gotoFrame 12
+    end // of frame 15
+
+    frame 16
+      gotoFrame 12
+    end // of frame 16
+
+    frame 19
+      stop
+    end // of frame 19
+
+    frame 20
+      setTarget 'dj01'
+        play
+      end
+    end // of frame 20
+
+    frame 21
+      stop
+      gotoFrame 19
+    end // of frame 21
+
+    frame 22
+      stop
+      gotoFrame 19
+    end // of frame 22
+
+    frame 23
+      stop
+      gotoFrame 19
+    end // of frame 23
+  end // of defineMovieClip 354
+
+  frame 77
+    stop
+  end // of frame 77
+
+  defineMovieClip 402 // total frames: 1
+  end // of defineMovieClip 402
+
+  defineMovieClip 413 // total frames: 1
+  end // of defineMovieClip 413
+
+  defineMovieClip 437 // total frames: 40
+
+    frame 5
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 5
+
+    frame 6
+      setTarget '/sh'
+        play
+      end
+    end // of frame 6
+  end // of defineMovieClip 437
+
+  defineMovieClip 456 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 456
+
+  defineMovieClip 457 // total frames: 45
+
+    frame 44
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+  end // of defineMovieClip 457
+
+  defineMovieClip 458 // total frames: 17
+
+    frame 16
+      stop
+    end // of frame 16
+  end // of defineMovieClip 458
+
+  defineMovieClip 461 // total frames: 4
+
+    frame 3
+      stop
+    end // of frame 3
+  end // of defineMovieClip 461
+
+  defineMovieClip 463 // total frames: 1
+  end // of defineMovieClip 463
+
+  defineMovieClip 464 // total frames: 4
+
+    frame 3
+      stop
+    end // of frame 3
+  end // of defineMovieClip 464
+
+  defineMovieClip 465 // total frames: 48
+
+    frame 43
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 43
+
+    frame 47
+      stop
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 47
+  end // of defineMovieClip 465
+
+  frame 114
+    stop
+  end // of frame 114
+
+  defineMovieClip 514 // total frames: 1
+  end // of defineMovieClip 514
+
+  defineButton 518
+
+    on overUpToOverDown
+      gotoFrame 14
+      play
+      setTarget '/02g/02g02'
+        gotoFrame 15
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 518
+
+  defineButton 519
+
+    on overUpToOverDown
+      gotoFrame 14
+      play
+      setTarget '/02g/02g02'
+        gotoFrame 15
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 519
+
+  defineMovieClip 531 // total frames: 74
+
+    frame 72
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 72
+
+    frame 73
+      stop
+    end // of frame 73
+  end // of defineMovieClip 531
+
+  defineMovieClip 545 // total frames: 74
+
+    frame 72
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 72
+
+    frame 73
+      stop
+    end // of frame 73
+  end // of defineMovieClip 545
+
+  defineMovieClip 551 // total frames: 55
+
+    frame 41
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 41
+
+    frame 42
+      setTarget '/sh'
+        play
+      end
+    end // of frame 42
+  end // of defineMovieClip 551
+
+  defineButton 552
+
+    on overUpToOverDown
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 552
+
+  defineMovieClip 554 // total frames: 61
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 59
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 554
+
+  defineMovieClip 555 // total frames: 17
+
+    frame 14
+      gotoFrame 16
+    end // of frame 14
+
+    frame 15
+      stop
+    end // of frame 15
+
+    frame 16
+      stop
+    end // of frame 16
+  end // of defineMovieClip 555
+
+  defineMovieClip 556 // total frames: 55
+
+    frame 49
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 49
+
+    frame 50
+      setTarget '/sh'
+        play
+      end
+    end // of frame 50
+  end // of defineMovieClip 556
+
+  defineMovieClip 573 // total frames: 40
+
+    frame 39
+      stop
+    end // of frame 39
+  end // of defineMovieClip 573
+
+  defineMovieClip 574 // total frames: 61
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 574
+
+  defineMovieClip 575 // total frames: 10
+
+    frame 9
+      stop
+    end // of frame 9
+  end // of defineMovieClip 575
+
+  defineMovieClip 579 // total frames: 66
+
+    frame 65
+      stop
+    end // of frame 65
+  end // of defineMovieClip 579
+
+  defineMovieClip 585 // total frames: 18
+
+    frame 11
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 11
+
+    frame 12
+      setTarget '/sh'
+        play
+      end
+    end // of frame 12
+
+    frame 17
+      stop
+    end // of frame 17
+  end // of defineMovieClip 585
+
+  defineMovieClip 586 // total frames: 61
+
+    frame 59
+      setTarget '/'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 586
+
+  defineMovieClip 587 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 587
+
+  defineMovieClip 588 // total frames: 97
+
+    frame 23
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 23
+
+    frame 34
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 34
+
+    frame 37
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 37
+
+    frame 41
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 41
+
+    frame 45
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 45
+
+    frame 48
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 48
+
+    frame 51
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 51
+
+    frame 83
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 83
+
+    frame 91
+      setTarget 'asas'
+        play
+      end
+    end // of frame 91
+
+    frame 91
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 91
+
+    frame 96
+      stop
+      setTarget '/qiangl'
+        play
+      end
+    end // of frame 96
+  end // of defineMovieClip 588
+
+  defineMovieClip 590 // total frames: 1
+  end // of defineMovieClip 590
+
+  defineMovieClip 594 // total frames: 1
+  end // of defineMovieClip 594
+
+  defineMovieClip 596 // total frames: 1
+  end // of defineMovieClip 596
+
+  frame 169
+    setTarget '/qiangl'
+      gotoFrame 17
+      play
+    end
+  end // of frame 169
+
+  frame 210
+    stop
+    setTarget '/02gh'
+      play
+    end
+  end // of frame 210
+
+  frame 228
+    stop
+  end // of frame 228
+
+  frame 230
+    stop
+    getURL 'FSCommand:showmenu' 'false'
+    push 0.0, 'Mouse'
+    getVariable
+    push 'show'
+    callMethod
+    pop
+    setTarget 'geme0'
+      gotoFrame 12
+    end
+  end // of frame 230
+
+  defineMovieClip 599 // total frames: 1
+  end // of defineMovieClip 599
+
+  defineMovieClip 600 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 600
+
+  defineButton 604
+
+    on overUpToOverDown
+      push 0.0, 'Mouse'
+      getVariable
+      push 'hide'
+      callMethod
+      pop
+      nextFrame
+      setTarget '/xuezhi'
+        gotoFrame 0
+      end
+      setTarget '/drag_01/drag_01a'
+        gotoFrame 0
+      end
+      setTarget '/drag_01'
+        gotoFrame 0
+      end
+      setTarget '/sh'
+        gotoFrame 0
+      end
+    end
+  end // of defineButton 604
+
+  defineMovieClip 617 // total frames: 181
+
+    frame 180
+      stop
+      setTarget '/geme0'
+        gotoFrame 19
+        play
+      end
+    end // of frame 180
+  end // of defineMovieClip 617
+
+  defineMovieClip 619 // total frames: 1
+  end // of defineMovieClip 619
+
+  defineMovieClip 620 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 620
+
+  defineMovieClip 622 // total frames: 1
+  end // of defineMovieClip 622
+
+  defineMovieClip 623 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 623
+
+  defineMovieClip 625 // total frames: 1
+  end // of defineMovieClip 625
+
+  defineMovieClip 626 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 626
+
+  defineMovieClip 628 // total frames: 1
+  end // of defineMovieClip 628
+
+  defineMovieClip 629 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 629
+
+  defineMovieClip 631 // total frames: 1
+  end // of defineMovieClip 631
+
+  defineMovieClip 632 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 632
+
+  defineMovieClip 634 // total frames: 1
+  end // of defineMovieClip 634
+
+  defineMovieClip 635 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 635
+
+  defineMovieClip 637 // total frames: 1
+  end // of defineMovieClip 637
+
+  defineMovieClip 638 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 638
+
+  defineMovieClip 640 // total frames: 1
+  end // of defineMovieClip 640
+
+  defineMovieClip 641 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 641
+
+  defineMovieClip 643 // total frames: 1
+  end // of defineMovieClip 643
+
+  defineMovieClip 644 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 644
+
+  defineMovieClip 646 // total frames: 1
+  end // of defineMovieClip 646
+
+  defineMovieClip 648 // total frames: 1
+  end // of defineMovieClip 648
+
+  defineMovieClip 650 // total frames: 1
+  end // of defineMovieClip 650
+
+  defineMovieClip 652 // total frames: 1
+  end // of defineMovieClip 652
+
+  defineMovieClip 654 // total frames: 1
+  end // of defineMovieClip 654
+
+  defineMovieClip 656 // total frames: 1
+  end // of defineMovieClip 656
+
+  defineMovieClip 658 // total frames: 1
+  end // of defineMovieClip 658
+
+  defineMovieClip 659 // total frames: 1
+  end // of defineMovieClip 659
+
+  defineMovieClip 661 // total frames: 1
+  end // of defineMovieClip 661
+
+  defineMovieClip 662 // total frames: 44
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 10
+      stop
+    end // of frame 10
+
+    frame 11
+      stop
+    end // of frame 11
+
+    frame 12
+      stop
+    end // of frame 12
+
+    frame 13
+      stop
+    end // of frame 13
+
+    frame 14
+      stop
+    end // of frame 14
+
+    frame 15
+      stop
+    end // of frame 15
+
+    frame 16
+      stop
+    end // of frame 16
+
+    frame 17
+      stop
+    end // of frame 17
+
+    frame 18
+      stop
+    end // of frame 18
+
+    frame 19
+      play
+    end // of frame 19
+
+    frame 42
+      setTarget '/'
+        gotoLabel 'hhou'
+      end
+    end // of frame 42
+
+    frame 43
+      stop
+    end // of frame 43
+  end // of defineMovieClip 662
+
+  defineButton 667
+
+    on overDownToOverUp
+      setTarget 'geme0'
+        gotoFrame 0
+      end
+    end
+  end // of defineButton 667
+
+  defineButton 671
+
+    on overDownToOverUp
+      setTarget 'geme0'
+        gotoFrame 12
+      end
+    end
+  end // of defineButton 671
+
+  defineButton 675
+
+    on overDownToOverUp
+      setTarget 'geme0'
+        gotoFrame 18
+      end
+    end
+  end // of defineButton 675
+
+  defineButton 679
+
+    on overDownToOverUp
+      play
+    end
+  end // of defineButton 679
+
+  defineButton 683
+
+    on overDownToOverUp
+      gotoFrame 34
+      play
+    end
+  end // of defineButton 683
+
+  defineMovieClip 685 // total frames: 1
+  end // of defineMovieClip 685
+
+  defineMovieClip 687 // total frames: 1
+  end // of defineMovieClip 687
+
+  defineMovieClip 689 // total frames: 1
+  end // of defineMovieClip 689
+
+  defineMovieClip 691 // total frames: 1
+  end // of defineMovieClip 691
+
+  defineMovieClip 693 // total frames: 1
+  end // of defineMovieClip 693
+
+  defineMovieClip 695 // total frames: 1
+  end // of defineMovieClip 695
+
+  defineMovieClip 697 // total frames: 1
+  end // of defineMovieClip 697
+
+  defineMovieClip 699 // total frames: 1
+  end // of defineMovieClip 699
+
+  defineMovieClip 701 // total frames: 1
+  end // of defineMovieClip 701
+
+  defineMovieClip 703 // total frames: 1
+  end // of defineMovieClip 703
+
+  defineMovieClip 704 // total frames: 11
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 10
+      setTarget '/js01/0010'
+        play
+      end
+    end // of frame 10
+  end // of defineMovieClip 704
+
+  defineMovieClip 705 // total frames: 1
+  end // of defineMovieClip 705
+
+  defineMovieClip 706 // total frames: 11
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 10
+      setTarget '/js01/0100'
+        play
+      end
+    end // of frame 10
+  end // of defineMovieClip 706
+
+  defineMovieClip 707 // total frames: 1
+  end // of defineMovieClip 707
+
+  defineMovieClip 708 // total frames: 11
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+      setTarget '/js01'
+        play
+      end
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 10
+      setTarget '/js01/1000'
+        play
+      end
+    end // of frame 10
+  end // of defineMovieClip 708
+
+  defineMovieClip 709 // total frames: 10
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      stop
+    end // of frame 9
+  end // of defineMovieClip 709
+
+  defineMovieClip 711 // total frames: 1
+  end // of defineMovieClip 711
+
+  defineMovieClip 714 // total frames: 1
+  end // of defineMovieClip 714
+
+  defineMovieClip 718 // total frames: 1
+  end // of defineMovieClip 718
+
+  defineMovieClip 720 // total frames: 1
+  end // of defineMovieClip 720
+
+  defineMovieClip 722 // total frames: 1
+  end // of defineMovieClip 722
+
+  defineMovieClip 724 // total frames: 1
+  end // of defineMovieClip 724
+
+  defineMovieClip 726 // total frames: 1
+  end // of defineMovieClip 726
+
+  defineMovieClip 727 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 727
+
+  defineMovieClip 729 // total frames: 1
+  end // of defineMovieClip 729
+
+  defineMovieClip 732 // total frames: 1
+  end // of defineMovieClip 732
+
+  defineMovieClip 733 // total frames: 1
+  end // of defineMovieClip 733
+
+  defineMovieClip 734 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 734
+
+  defineMovieClip 735 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 735
+
+  defineButton 739
+
+    on keyPress '1'
+      gotoFrame 0
+    end
+  end // of defineButton 739
+
+  defineButton 740
+
+    on keyPress '2'
+      gotoFrame 0
+    end
+  end // of defineButton 740
+
+  defineButton 741
+
+    on keyPress '3'
+      gotoFrame 0
+    end
+  end // of defineButton 741
+
+  defineButton 742
+
+    on keyPress '4'
+      gotoFrame 0
+    end
+  end // of defineButton 742
+
+  defineButton 743
+
+    on keyPress '5'
+      gotoFrame 1
+    end
+  end // of defineButton 743
+
+  defineButton 744
+
+    on keyPress '6'
+      gotoFrame 0
+    end
+  end // of defineButton 744
+
+  defineButton 745
+
+    on keyPress '7'
+      gotoFrame 0
+    end
+  end // of defineButton 745
+
+  defineButton 746
+
+    on keyPress '8'
+      gotoFrame 2
+    end
+  end // of defineButton 746
+
+  defineButton 747
+
+    on keyPress '9'
+      gotoFrame 0
+    end
+  end // of defineButton 747
+
+  defineButton 748
+
+    on keyPress '0'
+      gotoFrame 3
+    end
+  end // of defineButton 748
+
+  defineButton 749
+
+    on keyPress '5'
+      gotoFrame 0
+    end
+  end // of defineButton 749
+
+  defineButton 750
+
+    on keyPress '8'
+      gotoFrame 0
+    end
+  end // of defineButton 750
+
+  defineButton 751
+
+    on keyPress '0'
+      gotoFrame 4
+    end
+  end // of defineButton 751
+
+  defineButton 752
+
+    on keyPress _ENTER
+      gotoFrame 0
+    end
+  end // of defineButton 752
+
+  defineButton 753
+
+    on keyPress '6'
+      gotoFrame 5
+    end
+  end // of defineButton 753
+
+  defineButton 754
+
+    on keyPress '0'
+      gotoFrame 0
+    end
+  end // of defineButton 754
+
+  defineButton 755
+
+    on keyPress '0'
+      gotoFrame 6
+    end
+  end // of defineButton 755
+
+  defineButton 756
+
+    on keyPress '6'
+      gotoFrame 7
+    end
+  end // of defineButton 756
+
+  defineButton 757
+
+    on keyPress '5'
+      gotoFrame 8
+    end
+  end // of defineButton 757
+
+  defineButton 758
+
+    on keyPress '7'
+      gotoFrame 9
+    end
+  end // of defineButton 758
+
+  defineButton 759
+
+    on keyPress '9'
+      gotoFrame 10
+    end
+  end // of defineButton 759
+
+  defineButton 760
+
+    on keyPress '7'
+      gotoFrame 11
+    end
+  end // of defineButton 760
+
+  defineButton 761
+
+    on keyPress '6'
+      gotoFrame 12
+    end
+  end // of defineButton 761
+
+  defineButton 762
+
+    on keyPress '1'
+      gotoFrame 13
+      play
+    end
+  end // of defineButton 762
+
+  defineButton 763
+
+    on keyPress '2'
+      gotoFrame 15
+      play
+    end
+  end // of defineButton 763
+
+  defineButton 764
+
+    on keyPress '3'
+      gotoFrame 17
+      play
+    end
+  end // of defineButton 764
+
+  defineButton 765
+
+    on keyPress '4'
+      gotoFrame 19
+      play
+    end
+  end // of defineButton 765
+
+  defineButton 766
+
+    on keyPress '9'
+      gotoFrame 21
+    end
+  end // of defineButton 766
+
+  defineButton 767
+
+    on keyPress '9'
+      gotoFrame 22
+    end
+  end // of defineButton 767
+
+  defineMovieClip 771 // total frames: 23
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 10
+      stop
+    end // of frame 10
+
+    frame 11
+      stop
+    end // of frame 11
+
+    frame 12
+      stop
+    end // of frame 12
+
+    frame 13
+      setTarget '/'
+        gotoLabel 'hhou'
+      end
+    end // of frame 13
+
+    frame 14
+      stop
+    end // of frame 14
+
+    frame 15
+      setTarget '/'
+        gotoLabel 'hhou'
+      end
+    end // of frame 15
+
+    frame 16
+      stop
+      setTarget '/js01'
+        gotoFrame 1
+      end
+    end // of frame 16
+
+    frame 17
+      setTarget '/'
+        gotoLabel '672'
+      end
+    end // of frame 17
+
+    frame 18
+      stop
+    end // of frame 18
+
+    frame 19
+      setTarget '/'
+        gotoLabel '672'
+      end
+    end // of frame 19
+
+    frame 20
+      stop
+      setTarget '/js01'
+        play
+      end
+    end // of frame 20
+
+    frame 21
+      stop
+      setTarget '/xuezhi/xuezhi01'
+        gotoFrame 14
+      end
+    end // of frame 21
+
+    frame 22
+      stop
+      setTarget '/qiangl'
+        gotoFrame 19
+      end
+    end // of frame 22
+  end // of defineMovieClip 771
+
+  frame 231
+    push 0.0, 'Mouse'
+    getVariable
+    push 'hide'
+    callMethod
+    pop
+    push 0.0, 62, 500, 312, 1, 1, 'drag_01'
+    startDrag
+    setTarget 'tttt'
+      stop
+    end
+  end // of frame 231
+
+  defineButton 774
+
+    on overUpToOverDown
+      setTarget 'qiangl'
+        play
+      end
+      setTarget 'drag_01.hua'
+        gotoFrame 4
+        play
+      end
+    end
+  end // of defineButton 774
+
+  defineMovieClip 776 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 3
+      gotoFrame 0
+    end // of frame 3
+  end // of defineMovieClip 776
+
+  defineMovieClip 779 // total frames: 6
+  end // of defineMovieClip 779
+
+  defineMovieClip 780 // total frames: 1
+  end // of defineMovieClip 780
+
+  defineMovieClip 782 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 782
+
+  defineButton 784
+
+    on overUpToOverDown
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/qiangl/jinggao'
+        gotoFrame 1
+      end
+    end
+  end // of defineButton 784
+
+  defineMovieClip 785 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 785
+
+  frame 273
+    stop
+  end // of frame 273
+
+  defineButton 787
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/01g'
+        gotoFrame 32
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 787
+
+  defineButton 788
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/01g'
+        gotoFrame 32
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 788
+
+  defineButton 789
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/01g'
+        gotoFrame 32
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 789
+
+  defineButton 790
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/01g'
+        gotoFrame 32
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 790
+
+  defineButton 791
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/01g'
+        gotoFrame 32
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 791
+
+  defineButton 792
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/01g'
+        gotoFrame 32
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 792
+
+  defineMovieClip 793 // total frames: 40
+
+    frame 39
+      stop
+    end // of frame 39
+  end // of defineMovieClip 793
+
+  defineMovieClip 794 // total frames: 50
+
+    frame 49
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 49
+  end // of defineMovieClip 794
+
+  defineMovieClip 805 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 805
+
+  defineMovieClip 806 // total frames: 45
+
+    frame 44
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+  end // of defineMovieClip 806
+
+  defineMovieClip 819 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 819
+
+  defineMovieClip 820 // total frames: 45
+
+    frame 44
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+  end // of defineMovieClip 820
+
+  defineMovieClip 821 // total frames: 45
+
+    frame 44
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+  end // of defineMovieClip 821
+
+  defineMovieClip 829 // total frames: 31
+
+    frame 30
+      stop
+    end // of frame 30
+  end // of defineMovieClip 829
+
+  defineMovieClip 830 // total frames: 40
+
+    frame 39
+      setTarget '/'
+        play
+      end
+    end // of frame 39
+  end // of defineMovieClip 830
+
+  defineMovieClip 857 // total frames: 51
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 857
+
+  defineMovieClip 858 // total frames: 60
+
+    frame 59
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 59
+  end // of defineMovieClip 858
+
+  defineMovieClip 859 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 859
+
+  defineMovieClip 860 // total frames: 55
+
+    frame 20
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 20
+
+    frame 21
+      setTarget '/sh'
+        play
+      end
+    end // of frame 21
+  end // of defineMovieClip 860
+
+  defineButton 861
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 861
+
+  defineButton 862
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 862
+
+  defineButton 863
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 863
+
+  defineButton 864
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 864
+
+  defineButton 865
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 865
+
+  defineButton 866
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 866
+
+  defineMovieClip 867 // total frames: 50
+
+    frame 49
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 49
+  end // of defineMovieClip 867
+
+  defineMovieClip 868 // total frames: 45
+
+    frame 44
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+  end // of defineMovieClip 868
+
+  defineMovieClip 869 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 869
+
+  defineMovieClip 870 // total frames: 34
+
+    frame 31
+      gotoFrame 33
+    end // of frame 31
+
+    frame 32
+      stop
+    end // of frame 32
+
+    frame 33
+      stop
+    end // of frame 33
+  end // of defineMovieClip 870
+
+  frame 310
+    stop
+  end // of frame 310
+
+  defineMovieClip 871 // total frames: 4
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 3
+  end // of defineMovieClip 871
+
+  defineButton 872
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 872
+
+  defineButton 873
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 873
+
+  defineButton 874
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 874
+
+  defineButton 875
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 875
+
+  defineButton 876
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 876
+
+  defineButton 877
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 877
+
+  defineMovieClip 878 // total frames: 61
+
+    frame 59
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 878
+
+  defineMovieClip 879 // total frames: 61
+
+    frame 59
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 879
+
+  defineMovieClip 880 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 880
+
+  defineMovieClip 881 // total frames: 61
+
+    frame 59
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 881
+
+  defineMovieClip 882 // total frames: 61
+
+    frame 59
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 882
+
+  defineMovieClip 883 // total frames: 61
+
+    frame 59
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 883
+
+  defineMovieClip 884 // total frames: 61
+
+    frame 59
+      setTarget '/02g/02g1'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 884
+
+  defineMovieClip 885 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 885
+
+  defineMovieClip 886 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 886
+
+  frame 370
+    stop
+  end // of frame 370
+
+  defineMovieClip 950 // total frames: 1
+  end // of defineMovieClip 950
+
+  defineMovieClip 955 // total frames: 1
+  end // of defineMovieClip 955
+
+  defineMovieClip 957 // total frames: 1
+  end // of defineMovieClip 957
+
+  defineButton 958
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 958
+
+  defineButton 959
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 959
+
+  defineButton 960
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 960
+
+  defineButton 961
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 961
+
+  defineButton 962
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 962
+
+  defineButton 963
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 963
+
+  defineMovieClip 964 // total frames: 51
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 964
+
+  defineMovieClip 965 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 965
+
+  defineMovieClip 966 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 966
+
+  defineMovieClip 967 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 967
+
+  defineMovieClip 968 // total frames: 41
+
+    frame 40
+      stop
+    end // of frame 40
+  end // of defineMovieClip 968
+
+  defineMovieClip 969 // total frames: 61
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 969
+
+  defineMovieClip 970 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 970
+
+  defineMovieClip 971 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 971
+
+  defineMovieClip 978 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 978
+
+  defineMovieClip 979 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 979
+
+  defineMovieClip 981 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 981
+
+  defineMovieClip 983 // total frames: 8
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 983
+
+  defineMovieClip 985 // total frames: 9
+
+    frame 8
+      stop
+    end // of frame 8
+  end // of defineMovieClip 985
+
+  defineMovieClip 987 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 987
+
+  defineMovieClip 996 // total frames: 8
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 996
+
+  defineButton 1002
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1002
+
+  defineButton 1003
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1003
+
+  defineButton 1004
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1004
+
+  defineButton 1005
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1005
+
+  defineButton 1006
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1006
+
+  defineButton 1007
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1007
+
+  defineMovieClip 1008 // total frames: 51
+
+    frame 49
+      setTarget '/'
+        play
+      end
+    end // of frame 49
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 1008
+
+  defineMovieClip 1009 // total frames: 46
+
+    frame 44
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1009
+
+  defineMovieClip 1010 // total frames: 46
+
+    frame 44
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1010
+
+  defineMovieClip 1011 // total frames: 46
+
+    frame 44
+      setTarget '/'
+        play
+      end
+    end // of frame 44
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1011
+
+  defineMovieClip 1012 // total frames: 41
+
+    frame 39
+      setTarget '/'
+        play
+      end
+    end // of frame 39
+
+    frame 40
+      stop
+    end // of frame 40
+  end // of defineMovieClip 1012
+
+  defineMovieClip 1013 // total frames: 61
+
+    frame 59
+      setTarget '/'
+        play
+      end
+    end // of frame 59
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 1013
+
+  defineMovieClip 1014 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1014
+
+  defineMovieClip 1015 // total frames: 16
+
+    frame 15
+      stop
+    end // of frame 15
+  end // of defineMovieClip 1015
+
+  defineMovieClip 1016 // total frames: 12
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 10
+      stop
+    end // of frame 10
+
+    frame 11
+      stop
+    end // of frame 11
+  end // of defineMovieClip 1016
+
+  frame 375
+    stop
+  end // of frame 375
+
+  defineMovieClip 1023 // total frames: 37
+
+    frame 9
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 9
+
+    frame 10
+      setTarget '/sh'
+        play
+      end
+    end // of frame 10
+  end // of defineMovieClip 1023
+
+  defineButton 1024
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/04g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1024
+
+  defineButton 1025
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/04g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1025
+
+  defineButton 1026
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/04g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1026
+
+  defineButton 1027
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/04g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1027
+
+  defineButton 1028
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/04g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1028
+
+  defineButton 1029
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/04g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1029
+
+  defineMovieClip 1030 // total frames: 51
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 1030
+
+  defineMovieClip 1031 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1031
+
+  defineMovieClip 1032 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1032
+
+  defineMovieClip 1033 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1033
+
+  defineMovieClip 1034 // total frames: 41
+
+    frame 40
+      stop
+    end // of frame 40
+  end // of defineMovieClip 1034
+
+  defineMovieClip 1035 // total frames: 61
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 1035
+
+  defineMovieClip 1036 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1036
+
+  defineButton 1038
+
+    on overUpToOverDown
+      play
+      setTarget '/04g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1038
+
+  defineMovieClip 1062 // total frames: 57
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 56
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 56
+  end // of defineMovieClip 1062
+
+  defineMovieClip 1063 // total frames: 46
+
+    frame 16
+      stop
+    end // of frame 16
+  end // of defineMovieClip 1063
+
+  defineMovieClip 1064 // total frames: 42
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 23
+      stop
+    end // of frame 23
+
+    frame 41
+      stop
+    end // of frame 41
+  end // of defineMovieClip 1064
+
+  frame 380
+    stop
+  end // of frame 380
+
+  defineButton 1072
+
+    on overUpToOverDown
+      gotoFrame 50
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1072
+
+  defineMovieClip 1080 // total frames: 9
+  end // of defineMovieClip 1080
+
+  defineButton 1081
+
+    on overUpToOverDown
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/05g/05b/dao01'
+        stop
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1081
+
+  defineMovieClip 1083 // total frames: 24
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 23
+      stop
+    end // of frame 23
+  end // of defineMovieClip 1083
+
+  defineMovieClip 1092 // total frames: 41
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 25
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 25
+  end // of defineMovieClip 1092
+
+  defineMovieClip 1093 // total frames: 9
+  end // of defineMovieClip 1093
+
+  defineButton 1094
+
+    on overUpToOverDown
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/05g/05b/dao02'
+        stop
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1094
+
+  defineMovieClip 1095 // total frames: 24
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 23
+      stop
+    end // of frame 23
+  end // of defineMovieClip 1095
+
+  defineMovieClip 1102 // total frames: 41
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 25
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 25
+  end // of defineMovieClip 1102
+
+  defineButton 1103
+
+    on overUpToOverDown
+      gotoFrame 50
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1103
+
+  defineMovieClip 1145 // total frames: 92
+
+    frame 10
+      setTarget 'dao01'
+        gotoFrame 1
+        play
+      end
+    end // of frame 10
+
+    frame 31
+      setTarget 'dao02'
+        gotoFrame 1
+        play
+      end
+    end // of frame 31
+
+    frame 49
+      gotoFrame 8
+      play
+    end // of frame 49
+
+    frame 91
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 91
+  end // of defineMovieClip 1145
+
+  defineMovieClip 1146 // total frames: 1
+  end // of defineMovieClip 1146
+
+  frame 475
+    stop
+  end // of frame 475
+
+  defineButton 1242
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1242
+
+  defineButton 1243
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1243
+
+  defineButton 1244
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1244
+
+  defineButton 1245
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1245
+
+  defineButton 1246
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1246
+
+  defineButton 1247
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1247
+
+  defineMovieClip 1248 // total frames: 12
+
+    frame 10
+      setTarget '/06g'
+        play
+      end
+    end // of frame 10
+
+    frame 11
+      stop
+    end // of frame 11
+  end // of defineMovieClip 1248
+
+  defineMovieClip 1249 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 1249
+
+  defineMovieClip 1250 // total frames: 32
+
+    frame 30
+      setTarget '/06g'
+        play
+      end
+    end // of frame 30
+
+    frame 31
+      stop
+    end // of frame 31
+  end // of defineMovieClip 1250
+
+  defineMovieClip 1251 // total frames: 12
+
+    frame 10
+      setTarget '/06g'
+        play
+      end
+    end // of frame 10
+
+    frame 11
+      stop
+    end // of frame 11
+  end // of defineMovieClip 1251
+
+  defineMovieClip 1252 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 1252
+
+  defineMovieClip 1253 // total frames: 12
+
+    frame 10
+      setTarget '/06g'
+        play
+      end
+    end // of frame 10
+
+    frame 11
+      stop
+    end // of frame 11
+  end // of defineMovieClip 1253
+
+  defineMovieClip 1254 // total frames: 31
+
+    frame 30
+      stop
+    end // of frame 30
+  end // of defineMovieClip 1254
+
+  defineMovieClip 1255 // total frames: 12
+
+    frame 10
+      setTarget '/06g'
+        play
+      end
+    end // of frame 10
+
+    frame 11
+      stop
+    end // of frame 11
+  end // of defineMovieClip 1255
+
+  defineMovieClip 1256 // total frames: 51
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 1256
+
+  defineMovieClip 1257 // total frames: 19
+
+    frame 17
+      setTarget '/06g'
+        play
+      end
+    end // of frame 17
+
+    frame 18
+      stop
+    end // of frame 18
+  end // of defineMovieClip 1257
+
+  defineMovieClip 1258 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1258
+
+  defineMovieClip 1262 // total frames: 3
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+      setTarget '/06g'
+        play
+      end
+    end // of frame 2
+  end // of defineMovieClip 1262
+
+  defineButton 1267
+
+    on overUpToOverDown
+      gotoFrame 8
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+      setTarget '/06g/06g01'
+        play
+      end
+    end
+  end // of defineButton 1267
+
+  defineMovieClip 1303 // total frames: 33
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 32
+      stop
+    end // of frame 32
+  end // of defineMovieClip 1303
+
+  defineMovieClip 1314 // total frames: 6
+  end // of defineMovieClip 1314
+
+  defineMovieClip 1316 // total frames: 1
+  end // of defineMovieClip 1316
+
+  defineButton 1318
+
+    on overUpToOverDown
+      gotoFrame 9
+      play
+      setTarget '/06g/06g02/slz/sl01'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1318
+
+  defineMovieClip 1330 // total frames: 25
+
+    frame 8
+      gotoFrame 0
+      play
+    end // of frame 8
+
+    frame 24
+      stop
+    end // of frame 24
+  end // of defineMovieClip 1330
+
+  defineMovieClip 1331 // total frames: 45
+
+    frame 30
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 30
+
+    frame 44
+      stop
+    end // of frame 44
+  end // of defineMovieClip 1331
+
+  defineButton 1332
+
+    on overUpToOverDown
+      gotoFrame 9
+      play
+      setTarget '/06g/06g02/slz/sl02'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_02/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1332
+
+  defineMovieClip 1333 // total frames: 25
+
+    frame 8
+      gotoFrame 0
+      play
+    end // of frame 8
+
+    frame 24
+      stop
+    end // of frame 24
+  end // of defineMovieClip 1333
+
+  defineMovieClip 1334 // total frames: 45
+
+    frame 30
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 30
+
+    frame 44
+      stop
+    end // of frame 44
+  end // of defineMovieClip 1334
+
+  defineMovieClip 1335 // total frames: 4
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      gotoFrame 1
+    end // of frame 3
+  end // of defineMovieClip 1335
+
+  defineButton 1337
+
+    on overUpToOverDown
+      gotoFrame 57
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+      setTarget '/06g/06g01'
+        play
+      end
+    end
+  end // of defineButton 1337
+
+  defineMovieClip 1385 // total frames: 1
+  end // of defineMovieClip 1385
+
+  defineMovieClip 1386 // total frames: 1
+  end // of defineMovieClip 1386
+
+  defineMovieClip 1387 // total frames: 97
+
+    frame 19
+      setTarget 'slz'
+        play
+      end
+    end // of frame 19
+
+    frame 56
+      gotoFrame 1
+      play
+    end // of frame 56
+
+    frame 96
+      stop
+    end // of frame 96
+  end // of defineMovieClip 1387
+
+  defineMovieClip 1388 // total frames: 49
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 48
+      setTarget '/'
+        play
+      end
+    end // of frame 48
+  end // of defineMovieClip 1388
+
+  defineMovieClip 1403 // total frames: 6
+  end // of defineMovieClip 1403
+
+  defineMovieClip 1406 // total frames: 1
+  end // of defineMovieClip 1406
+
+  frame 508
+    stop
+  end // of frame 508
+
+  defineMovieClip 1423 // total frames: 10
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 1423
+
+  defineButton 1425
+
+    on overUpToOverDown
+      setTarget '08gtt'
+        play
+      end
+      setTarget '08g11'
+        play
+      end
+      setTarget '/.qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1425
+
+  defineButton 1427
+
+    on overUpToOverDown
+      play
+      setTarget '/08g/rx'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1427
+
+  defineMovieClip 1429 // total frames: 1
+  end // of defineMovieClip 1429
+
+  defineMovieClip 1431 // total frames: 1
+  end // of defineMovieClip 1431
+
+  defineMovieClip 1433 // total frames: 1
+  end // of defineMovieClip 1433
+
+  defineMovieClip 1435 // total frames: 1
+  end // of defineMovieClip 1435
+
+  defineMovieClip 1436 // total frames: 16
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 1436
+
+  defineMovieClip 1437 // total frames: 16
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 1437
+
+  defineMovieClip 1439 // total frames: 30
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 21
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 21
+  end // of defineMovieClip 1439
+
+  defineMovieClip 1444 // total frames: 4
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+      setTarget '/08g'
+        gotoFrame 36
+        play
+      end
+    end // of frame 1
+
+    frame 2
+      stop
+      setTarget '/08g'
+        gotoFrame 44
+        play
+      end
+    end // of frame 2
+
+    frame 3
+      stop
+      setTarget '/08g'
+        gotoFrame 54
+        play
+      end
+    end // of frame 3
+  end // of defineMovieClip 1444
+
+  defineButton 1447
+
+    on overUpToOverDown
+      setTarget '08gtt'
+        play
+      end
+      setTarget '08g11'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1447
+
+  defineButton 1471
+
+    on overUpToOverDown
+      setTarget '08g11'
+        play
+      end
+      setTarget 'qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1471
+
+  defineButton 1473
+
+    on overUpToOverDown
+      setTarget '08g11'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1473
+
+  defineButton 1479
+
+    on overUpToOverDown
+      setTarget '08g11'
+        play
+      end
+      setTarget '/.qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1479
+
+  defineMovieClip 1514 // total frames: 77
+
+    frame 15
+      setTarget 'rx'
+        gotoFrame 1
+        play
+      end
+    end // of frame 15
+
+    frame 35
+      gotoFrame 0
+      play
+    end // of frame 35
+
+    frame 43
+      gotoFrame 27
+      play
+    end // of frame 43
+
+    frame 53
+      gotoFrame 27
+      play
+    end // of frame 53
+
+    frame 76
+      setTarget '/'
+        play
+      end
+    end // of frame 76
+  end // of defineMovieClip 1514
+
+  frame 518
+    stop
+  end // of frame 518
+
+  defineMovieClip 1526 // total frames: 37
+
+    frame 31
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 31
+
+    frame 32
+      setTarget '/sh'
+        play
+      end
+    end // of frame 32
+  end // of defineMovieClip 1526
+
+  defineButton 1527
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1527
+
+  defineButton 1528
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1528
+
+  defineButton 1529
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1529
+
+  defineButton 1530
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1530
+
+  defineButton 1531
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1531
+
+  defineButton 1532
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/03g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1532
+
+  defineMovieClip 1533 // total frames: 51
+
+    frame 9
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 9
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 1533
+
+  defineMovieClip 1534 // total frames: 46
+
+    frame 9
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 9
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1534
+
+  defineMovieClip 1535 // total frames: 46
+
+    frame 9
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 9
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1535
+
+  defineMovieClip 1536 // total frames: 46
+
+    frame 9
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 9
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1536
+
+  defineMovieClip 1537 // total frames: 41
+
+    frame 9
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 9
+
+    frame 40
+      stop
+    end // of frame 40
+  end // of defineMovieClip 1537
+
+  defineMovieClip 1538 // total frames: 61
+
+    frame 9
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 9
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 1538
+
+  defineMovieClip 1539 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1539
+
+  defineMovieClip 1540 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1540
+
+  defineMovieClip 1541 // total frames: 1
+  end // of defineMovieClip 1541
+
+  defineMovieClip 1542 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1542
+
+  defineMovieClip 1543 // total frames: 1
+  end // of defineMovieClip 1543
+
+  defineMovieClip 1545 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1545
+
+  defineMovieClip 1546 // total frames: 1
+  end // of defineMovieClip 1546
+
+  defineButton 1549
+
+    on overDownToOverUp
+      play
+      setTarget '/09g/09g01/09g05/09g06'
+        stop
+      end
+      setTarget '/09g/09g01/09g05'
+        gotoFrame 18
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1549
+
+  defineMovieClip 1550 // total frames: 10
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 5
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 5
+  end // of defineMovieClip 1550
+
+  defineMovieClip 1551 // total frames: 18
+  end // of defineMovieClip 1551
+
+  defineButton 1569
+
+    on overUpToOverDown
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1569
+
+  defineMovieClip 1570 // total frames: 57
+
+    frame 17
+      gotoFrame 19
+    end // of frame 17
+
+    frame 18
+      stop
+    end // of frame 18
+
+    frame 19
+      stop
+    end // of frame 19
+
+    frame 25
+      setTarget '/09g/09g01'
+        play
+      end
+    end // of frame 25
+
+    frame 56
+      stop
+    end // of frame 56
+  end // of defineMovieClip 1570
+
+  defineMovieClip 1571 // total frames: 75
+
+    frame 13
+      stop
+    end // of frame 13
+
+    frame 24
+      stop
+    end // of frame 24
+
+    frame 44
+      stop
+    end // of frame 44
+
+    frame 55
+      stop
+    end // of frame 55
+
+    frame 74
+      setTarget '/'
+        play
+      end
+    end // of frame 74
+  end // of defineMovieClip 1571
+
+  defineMovieClip 1572 // total frames: 5
+
+    frame 4
+      stop
+    end // of frame 4
+  end // of defineMovieClip 1572
+
+  defineMovieClip 1576 // total frames: 1
+  end // of defineMovieClip 1576
+
+  frame 541
+    stop
+  end // of frame 541
+
+  defineButton 1630
+
+    on overUpToOverDown
+      gotoFrame 3
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1630
+
+  defineMovieClip 1633 // total frames: 30
+
+    frame 9
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+    end // of frame 9
+
+    frame 10
+      setTarget '/sh'
+        play
+      end
+    end // of frame 10
+  end // of defineMovieClip 1633
+
+  defineMovieClip 1645 // total frames: 1
+  end // of defineMovieClip 1645
+
+  defineMovieClip 1646 // total frames: 1
+  end // of defineMovieClip 1646
+
+  defineMovieClip 1647 // total frames: 26
+
+    frame 25
+      stop
+    end // of frame 25
+  end // of defineMovieClip 1647
+
+  defineButton 1650
+
+    on overUpToOverDown
+      gotoFrame 8
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1650
+
+  defineMovieClip 1657 // total frames: 16
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 15
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 15
+  end // of defineMovieClip 1657
+
+  defineMovieClip 1658 // total frames: 14
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 13
+      stop
+    end // of frame 13
+  end // of defineMovieClip 1658
+
+  frame 551
+    stop
+  end // of frame 551
+
+  defineMovieClip 1669 // total frames: 6
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 1669
+
+  defineMovieClip 1673 // total frames: 1
+  end // of defineMovieClip 1673
+
+  defineMovieClip 1675 // total frames: 4
+  end // of defineMovieClip 1675
+
+  defineButton 1676
+
+    on overUpToOverDown
+      gotoFrame 4
+      play
+      setTarget '/11g/11g01/11g01p/11g01p1'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1676
+
+  defineMovieClip 1677 // total frames: 4
+  end // of defineMovieClip 1677
+
+  defineMovieClip 1678 // total frames: 15
+
+    frame 14
+      stop
+    end // of frame 14
+  end // of defineMovieClip 1678
+
+  defineMovieClip 1679 // total frames: 20
+
+    frame 3
+      gotoFrame 0
+      play
+    end // of frame 3
+
+    frame 19
+      stop
+      setTarget '/11g/11g01/11g01p/11g01p1'
+        gotoFrame 0
+      end
+    end // of frame 19
+  end // of defineMovieClip 1679
+
+  defineMovieClip 1680 // total frames: 15
+
+    frame 14
+      stop
+    end // of frame 14
+  end // of defineMovieClip 1680
+
+  defineMovieClip 1681 // total frames: 30
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 15
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+      setTarget '/11g/11gc'
+        play
+      end
+    end // of frame 15
+  end // of defineMovieClip 1681
+
+  defineButton 1682
+
+    on overUpToOverDown
+      gotoFrame 4
+      play
+      setTarget '/11g/11g01/11g01p/11g01p2'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1682
+
+  defineMovieClip 1683 // total frames: 20
+
+    frame 3
+      gotoFrame 0
+      play
+    end // of frame 3
+
+    frame 19
+      stop
+      setTarget '/11g/11g01/11g01p/11g01p2'
+        gotoFrame 0
+      end
+    end // of frame 19
+  end // of defineMovieClip 1683
+
+  defineMovieClip 1684 // total frames: 30
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 15
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+      setTarget '/11g/11gc'
+        play
+      end
+    end // of frame 15
+  end // of defineMovieClip 1684
+
+  defineMovieClip 1690 // total frames: 112
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 6
+      setTarget '11g01p1'
+        gotoFrame 1
+        play
+      end
+    end // of frame 6
+
+    frame 61
+      setTarget '11g01p2'
+        gotoFrame 1
+        play
+      end
+    end // of frame 61
+
+    frame 110
+      gotoFrame 1
+      play
+    end // of frame 110
+
+    frame 111
+      stop
+    end // of frame 111
+  end // of defineMovieClip 1690
+
+  defineButton 1691
+
+    on overUpToOverDown
+      gotoFrame 8
+      play
+      setTarget '11g01p'
+        gotoFrame 0
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1691
+
+  defineMovieClip 1703 // total frames: 16
+
+    frame 6
+      setTarget '11g01p'
+        play
+      end
+    end // of frame 6
+
+    frame 7
+      stop
+    end // of frame 7
+
+    frame 8
+      setTarget '/11g'
+        play
+      end
+    end // of frame 8
+
+    frame 15
+      stop
+    end // of frame 15
+  end // of defineMovieClip 1703
+
+  defineMovieClip 1706 // total frames: 1
+  end // of defineMovieClip 1706
+
+  defineMovieClip 1711 // total frames: 10
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 1711
+
+  defineMovieClip 1712 // total frames: 6
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 5
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/sh'
+        play
+      end
+    end // of frame 5
+  end // of defineMovieClip 1712
+
+  defineMovieClip 1714 // total frames: 6
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 1714
+
+  defineMovieClip 1715 // total frames: 6
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 1715
+
+  defineMovieClip 1716 // total frames: 10
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 1716
+
+  defineMovieClip 1720 // total frames: 11
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 1720
+
+  defineMovieClip 1722 // total frames: 24
+
+    frame 0
+      setTarget 'qq1'
+        play
+      end
+    end // of frame 0
+
+    frame 3
+      setTarget 'qq2'
+        play
+      end
+    end // of frame 3
+
+    frame 6
+      setTarget 'qq3'
+        play
+      end
+    end // of frame 6
+
+    frame 9
+      setTarget 'qq4'
+        play
+      end
+    end // of frame 9
+
+    frame 12
+      setTarget 'qq5'
+        play
+      end
+    end // of frame 12
+
+    frame 15
+      setTarget 'qq6'
+        play
+      end
+    end // of frame 15
+
+    frame 18
+      setTarget 'qq7'
+        play
+      end
+    end // of frame 18
+
+    frame 21
+      setTarget 'qq8'
+        play
+      end
+    end // of frame 21
+  end // of defineMovieClip 1722
+
+  defineMovieClip 1723 // total frames: 15
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 12
+      gotoFrame 5
+      play
+    end // of frame 12
+
+    frame 14
+      stop
+    end // of frame 14
+  end // of defineMovieClip 1723
+
+  defineButton 1724
+
+    on overUpToOverDown
+      gotoFrame 18
+      play
+      setTarget '11g021'
+        gotoFrame 13
+      end
+      setTarget '11g021/11g0211'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1724
+
+  defineMovieClip 1726 // total frames: 1
+  end // of defineMovieClip 1726
+
+  defineMovieClip 1738 // total frames: 27
+
+    frame 16
+      setTarget '11g021'
+        play
+      end
+    end // of frame 16
+
+    frame 17
+      stop
+    end // of frame 17
+
+    frame 26
+      stop
+      setTarget '/11g'
+        play
+      end
+    end // of frame 26
+  end // of defineMovieClip 1738
+
+  defineMovieClip 1739 // total frames: 15
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 14
+      setTarget '/'
+        play
+      end
+    end // of frame 14
+  end // of defineMovieClip 1739
+
+  frame 588
+    stop
+  end // of frame 588
+
+  defineMovieClip 1787 // total frames: 17
+
+    frame 9
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/sh'
+        play
+      end
+    end // of frame 9
+  end // of defineMovieClip 1787
+
+  defineButton 1788
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1788
+
+  defineButton 1789
+
+    on overUpToOverDown
+      gotoFrame 3
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1789
+
+  defineButton 1790
+
+    on overUpToOverDown
+      gotoFrame 4
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1790
+
+  defineButton 1791
+
+    on overUpToOverDown
+      gotoFrame 2
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1791
+
+  defineButton 1792
+
+    on overUpToOverDown
+      gotoFrame 5
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1792
+
+  defineButton 1793
+
+    on overUpToOverDown
+      gotoFrame 6
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1793
+
+  defineMovieClip 1794 // total frames: 51
+
+    frame 3
+      setTarget '/12g'
+        play
+      end
+    end // of frame 3
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 1794
+
+  defineMovieClip 1795 // total frames: 46
+
+    frame 2
+      setTarget '/12g'
+        play
+      end
+    end // of frame 2
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1795
+
+  defineMovieClip 1796 // total frames: 46
+
+    frame 3
+      setTarget '/12g'
+        play
+      end
+    end // of frame 3
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1796
+
+  defineMovieClip 1797 // total frames: 46
+
+    frame 3
+      setTarget '/12g'
+        play
+      end
+    end // of frame 3
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1797
+
+  defineMovieClip 1798 // total frames: 41
+
+    frame 3
+      setTarget '/12g'
+        play
+      end
+    end // of frame 3
+
+    frame 40
+      stop
+    end // of frame 40
+  end // of defineMovieClip 1798
+
+  defineMovieClip 1799 // total frames: 61
+
+    frame 3
+      setTarget '/12g'
+        play
+      end
+    end // of frame 3
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 1799
+
+  defineMovieClip 1800 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1800
+
+  defineMovieClip 1805 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1805
+
+  defineMovieClip 1806 // total frames: 46
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 19
+      stop
+    end // of frame 19
+
+    frame 26
+      stop
+    end // of frame 26
+
+    frame 34
+      stop
+    end // of frame 34
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1806
+
+  defineMovieClip 1807 // total frames: 46
+
+    frame 9
+      stop
+    end // of frame 9
+
+    frame 19
+      stop
+    end // of frame 19
+
+    frame 26
+      stop
+    end // of frame 26
+
+    frame 34
+      stop
+    end // of frame 34
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1807
+
+  defineMovieClip 1808 // total frames: 46
+
+    frame 9
+      stop
+      setTarget '12gcj'
+        gotoFrame 9
+      end
+    end // of frame 9
+
+    frame 10
+      setTarget '12gcj'
+        gotoFrame 10
+        play
+      end
+    end // of frame 10
+
+    frame 19
+      stop
+      setTarget '12gcj'
+        gotoFrame 19
+      end
+    end // of frame 19
+
+    frame 20
+      setTarget '12gcj'
+        gotoFrame 20
+        play
+      end
+    end // of frame 20
+
+    frame 26
+      stop
+      setTarget '12gcj'
+        gotoFrame 26
+      end
+    end // of frame 26
+
+    frame 27
+      setTarget '12gcj'
+        gotoFrame 27
+        play
+      end
+    end // of frame 27
+
+    frame 34
+      stop
+      setTarget '12gcj'
+        gotoFrame 34
+      end
+    end // of frame 34
+
+    frame 35
+      setTarget '12gcj'
+        gotoFrame 35
+        play
+      end
+    end // of frame 35
+
+    frame 45
+      setTarget '/'
+        play
+      end
+    end // of frame 45
+  end // of defineMovieClip 1808
+
+  frame 688
+    stop
+  end // of frame 688
+
+  defineMovieClip 1910 // total frames: 6
+  end // of defineMovieClip 1910
+
+  defineButton 1911
+
+    on overUpToOverDown
+      gotoFrame 1
+      setTarget '/13g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1911
+
+  defineButton 1912
+
+    on overUpToOverDown
+      gotoFrame 3
+      gotoFrame 1
+      setTarget '/13g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1912
+
+  defineButton 1913
+
+    on overUpToOverDown
+      gotoFrame 4
+      gotoFrame 1
+      setTarget '/13g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1913
+
+  defineButton 1914
+
+    on overUpToOverDown
+      gotoFrame 2
+      gotoFrame 1
+      setTarget '/13g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1914
+
+  defineButton 1915
+
+    on overUpToOverDown
+      gotoFrame 5
+      gotoFrame 1
+      setTarget '/13g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1915
+
+  defineButton 1916
+
+    on overUpToOverDown
+      gotoFrame 6
+      gotoFrame 1
+      setTarget '/13g'
+        play
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 1916
+
+  defineMovieClip 1917 // total frames: 51
+
+    frame 50
+      stop
+    end // of frame 50
+  end // of defineMovieClip 1917
+
+  defineMovieClip 1918 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1918
+
+  defineMovieClip 1919 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1919
+
+  defineMovieClip 1920 // total frames: 46
+
+    frame 45
+      stop
+    end // of frame 45
+  end // of defineMovieClip 1920
+
+  defineMovieClip 1921 // total frames: 41
+
+    frame 40
+      stop
+    end // of frame 40
+  end // of defineMovieClip 1921
+
+  defineMovieClip 1922 // total frames: 61
+
+    frame 60
+      stop
+    end // of frame 60
+  end // of defineMovieClip 1922
+
+  defineMovieClip 1923 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 1923
+
+  defineMovieClip 1924 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 1924
+
+  defineMovieClip 1926 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 1926
+
+  defineMovieClip 1927 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 1927
+
+  defineMovieClip 1929 // total frames: 6
+  end // of defineMovieClip 1929
+
+  defineMovieClip 1930 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 1930
+
+  defineMovieClip 1932 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 1932
+
+  defineMovieClip 1933 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 1933
+
+  defineMovieClip 1934 // total frames: 40
+
+    frame 1
+      stop
+      setTarget '13g04'
+        gotoFrame 1
+        play
+      end
+    end // of frame 1
+
+    frame 2
+      stop
+      setTarget '13g02'
+        gotoFrame 1
+        play
+      end
+    end // of frame 2
+
+    frame 3
+      stop
+      setTarget '13g01'
+        gotoFrame 1
+        play
+      end
+    end // of frame 3
+
+    frame 4
+      stop
+      setTarget '13g06'
+        gotoFrame 1
+        play
+      end
+    end // of frame 4
+
+    frame 5
+      stop
+      setTarget '13g03'
+        gotoFrame 1
+        play
+      end
+    end // of frame 5
+
+    frame 6
+      stop
+      setTarget '13g05'
+        gotoFrame 1
+        play
+      end
+    end // of frame 6
+
+    frame 7
+      stop
+      setTarget '13g02'
+        gotoFrame 1
+        play
+      end
+    end // of frame 7
+
+    frame 8
+      stop
+      setTarget '13g06'
+        gotoFrame 1
+        play
+      end
+    end // of frame 8
+
+    frame 9
+      stop
+      setTarget '13g04'
+        gotoFrame 1
+        play
+      end
+    end // of frame 9
+
+    frame 10
+      stop
+      setTarget '13g03'
+        gotoFrame 1
+        play
+      end
+    end // of frame 10
+
+    frame 11
+      stop
+      setTarget '13g01'
+        gotoFrame 1
+        play
+      end
+    end // of frame 11
+
+    frame 12
+      stop
+      setTarget '13g05'
+        gotoFrame 1
+        play
+      end
+    end // of frame 12
+
+    frame 13
+      stop
+      setTarget '13g04'
+        gotoFrame 1
+        play
+      end
+    end // of frame 13
+
+    frame 14
+      stop
+      setTarget '13g01'
+        gotoFrame 1
+        play
+      end
+    end // of frame 14
+
+    frame 15
+      stop
+      setTarget '13g06'
+        gotoFrame 1
+        play
+      end
+    end // of frame 15
+
+    frame 16
+      stop
+      setTarget '13g02'
+        gotoFrame 1
+        play
+      end
+    end // of frame 16
+
+    frame 17
+      stop
+      setTarget '13g03'
+        gotoFrame 1
+        play
+      end
+    end // of frame 17
+
+    frame 18
+      stop
+      setTarget '13g05'
+        gotoFrame 1
+        play
+      end
+    end // of frame 18
+
+    frame 39
+      setTarget '/'
+        play
+      end
+    end // of frame 39
+  end // of defineMovieClip 1934
+
+  frame 723
+    stop
+  end // of frame 723
+
+  defineMovieClip 1971 // total frames: 1
+  end // of defineMovieClip 1971
+
+  defineMovieClip 1972 // total frames: 1
+  end // of defineMovieClip 1972
+
+  defineMovieClip 1974 // total frames: 1
+  end // of defineMovieClip 1974
+
+  defineMovieClip 1976 // total frames: 1
+  end // of defineMovieClip 1976
+
+  defineMovieClip 1978 // total frames: 1
+  end // of defineMovieClip 1978
+
+  defineMovieClip 1980 // total frames: 1
+  end // of defineMovieClip 1980
+
+  defineMovieClip 1982 // total frames: 1
+  end // of defineMovieClip 1982
+
+  defineMovieClip 1984 // total frames: 1
+  end // of defineMovieClip 1984
+
+  defineMovieClip 1986 // total frames: 1
+  end // of defineMovieClip 1986
+
+  defineMovieClip 1988 // total frames: 1
+  end // of defineMovieClip 1988
+
+  defineMovieClip 1990 // total frames: 1
+  end // of defineMovieClip 1990
+
+  defineMovieClip 1992 // total frames: 1
+  end // of defineMovieClip 1992
+
+  defineMovieClip 1994 // total frames: 1
+  end // of defineMovieClip 1994
+
+  defineMovieClip 1996 // total frames: 1
+  end // of defineMovieClip 1996
+
+  defineMovieClip 1998 // total frames: 1
+  end // of defineMovieClip 1998
+
+  defineMovieClip 2000 // total frames: 1
+  end // of defineMovieClip 2000
+
+  defineMovieClip 2002 // total frames: 1
+  end // of defineMovieClip 2002
+
+  defineMovieClip 2004 // total frames: 1
+  end // of defineMovieClip 2004
+
+  defineMovieClip 2006 // total frames: 1
+  end // of defineMovieClip 2006
+
+  defineMovieClip 2008 // total frames: 1
+  end // of defineMovieClip 2008
+
+  defineMovieClip 2010 // total frames: 1
+  end // of defineMovieClip 2010
+
+  defineMovieClip 2012 // total frames: 1
+  end // of defineMovieClip 2012
+
+  defineMovieClip 2014 // total frames: 1
+  end // of defineMovieClip 2014
+
+  defineMovieClip 2016 // total frames: 1
+  end // of defineMovieClip 2016
+
+  defineMovieClip 2018 // total frames: 1
+  end // of defineMovieClip 2018
+
+  defineMovieClip 2019 // total frames: 1
+  end // of defineMovieClip 2019
+
+  defineMovieClip 2021 // total frames: 1
+  end // of defineMovieClip 2021
+
+  defineMovieClip 2023 // total frames: 1
+  end // of defineMovieClip 2023
+
+  defineMovieClip 2025 // total frames: 1
+  end // of defineMovieClip 2025
+
+  defineMovieClip 2027 // total frames: 1
+  end // of defineMovieClip 2027
+
+  defineMovieClip 2029 // total frames: 1
+  end // of defineMovieClip 2029
+
+  defineMovieClip 2031 // total frames: 1
+  end // of defineMovieClip 2031
+
+  defineMovieClip 2033 // total frames: 1
+  end // of defineMovieClip 2033
+
+  defineMovieClip 2035 // total frames: 1
+  end // of defineMovieClip 2035
+
+  defineMovieClip 2037 // total frames: 1
+  end // of defineMovieClip 2037
+
+  defineMovieClip 2039 // total frames: 1
+  end // of defineMovieClip 2039
+
+  defineMovieClip 2040 // total frames: 35
+
+    frame 34
+      stop
+    end // of frame 34
+  end // of defineMovieClip 2040
+
+  defineMovieClip 2041 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 2041
+
+  defineMovieClip 2042 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2042
+
+  defineButton 2043
+
+    on overUpToOverDown
+      stop
+      setTarget '/14g/14g01'
+        stop
+      end
+      setTarget 'tt'
+        play
+      end
+      setTarget 'zzao'
+        gotoFrame 34
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2043
+
+  defineMovieClip 2044 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2044
+
+  defineMovieClip 2045 // total frames: 36
+
+    frame 35
+      stop
+    end // of frame 35
+  end // of defineMovieClip 2045
+
+  defineMovieClip 2046 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2046
+
+  defineMovieClip 2047 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2047
+
+  defineMovieClip 2048 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2048
+
+  defineMovieClip 2049 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2049
+
+  defineMovieClip 2050 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2050
+
+  defineMovieClip 2051 // total frames: 38
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 37
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 37
+  end // of defineMovieClip 2051
+
+  defineMovieClip 2052 // total frames: 40
+
+    frame 39
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 39
+  end // of defineMovieClip 2052
+
+  defineMovieClip 2054 // total frames: 1
+  end // of defineMovieClip 2054
+
+  defineMovieClip 2056 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 2056
+
+  defineMovieClip 2057 // total frames: 42
+
+    frame 18
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+    end // of frame 18
+
+    placeMovieClip 2056 
+    end // of placeMovieClip 2056
+
+    frame 21
+      stop
+    end // of frame 21
+  end // of defineMovieClip 2057
+
+  defineMovieClip 2058 // total frames: 2
+
+    frame 1
+      stop
+    end // of frame 1
+  end // of defineMovieClip 2058
+
+  frame 752
+    stop
+  end // of frame 752
+
+  defineMovieClip 2096 // total frames: 1
+  end // of defineMovieClip 2096
+
+  defineMovieClip 2099 // total frames: 1
+  end // of defineMovieClip 2099
+
+  defineButton 2104
+
+    on overUpToOverDown
+      gotoFrame 4
+      play
+      setTarget '/15g/15g01/15g01p/15g01p1'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2104
+
+  defineMovieClip 2105 // total frames: 20
+
+    frame 3
+      gotoFrame 0
+      play
+    end // of frame 3
+
+    frame 19
+      stop
+      setTarget '/15g/15g01/15g01p/15g01p1'
+        gotoFrame 0
+      end
+    end // of frame 19
+  end // of defineMovieClip 2105
+
+  defineMovieClip 2106 // total frames: 30
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 15
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+      setTarget '/15g/15gtt'
+        play
+      end
+    end // of frame 15
+  end // of defineMovieClip 2106
+
+  defineButton 2107
+
+    on overUpToOverDown
+      gotoFrame 4
+      play
+      setTarget '/15g/15g01/15g01p/15g01p2'
+        stop
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2107
+
+  defineMovieClip 2108 // total frames: 20
+
+    frame 3
+      gotoFrame 0
+      play
+    end // of frame 3
+
+    frame 19
+      stop
+      setTarget '/15g/15g01/15g01p/15g01p2'
+        gotoFrame 0
+      end
+    end // of frame 19
+  end // of defineMovieClip 2108
+
+  defineMovieClip 2109 // total frames: 30
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 15
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/temp01'
+        play
+      end
+      setTarget '/15g/15gtt'
+        play
+      end
+    end // of frame 15
+  end // of defineMovieClip 2109
+
+  defineMovieClip 2110 // total frames: 76
+
+    frame 10
+      setTarget '15g01p1'
+        gotoFrame 1
+        play
+      end
+    end // of frame 10
+
+    frame 45
+      setTarget '15g01p2'
+        gotoFrame 1
+        play
+      end
+    end // of frame 45
+
+    frame 73
+      gotoFrame 1
+      play
+    end // of frame 73
+
+    frame 74
+      stop
+    end // of frame 74
+  end // of defineMovieClip 2110
+
+  defineButton 2111
+
+    on overUpToOverDown
+      gotoFrame 10
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+      setTarget '15g01p'
+        gotoFrame 74
+      end
+    end
+  end // of defineButton 2111
+
+  defineMovieClip 2112 // total frames: 50
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 49
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 49
+  end // of defineMovieClip 2112
+
+  defineMovieClip 2116 // total frames: 8
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 2116
+
+  defineMovieClip 2117 // total frames: 50
+
+    frame 8
+      stop
+    end // of frame 8
+
+    frame 49
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 49
+  end // of defineMovieClip 2117
+
+  defineMovieClip 2118 // total frames: 41
+
+    frame 40
+      stop
+    end // of frame 40
+  end // of defineMovieClip 2118
+
+  frame 771
+    stop
+  end // of frame 771
+
+  defineButton 2140
+
+    on overUpToOverDown
+      gotoFrame 7
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2140
+
+  defineButton 2141
+
+    on overUpToOverDown
+      gotoFrame 8
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2141
+
+  defineMovieClip 2146 // total frames: 17
+
+    frame 9
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/sh'
+        play
+      end
+    end // of frame 9
+  end // of defineMovieClip 2146
+
+  defineMovieClip 2147 // total frames: 10
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 7
+
+    frame 8
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 8
+
+    frame 9
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 9
+  end // of defineMovieClip 2147
+
+  defineButton 2149
+
+    on overUpToOverDown
+      gotoFrame 7
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2149
+
+  defineButton 2150
+
+    on overUpToOverDown
+      gotoFrame 8
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2150
+
+  defineMovieClip 2151 // total frames: 10
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 7
+
+    frame 8
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 8
+
+    frame 9
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 9
+  end // of defineMovieClip 2151
+
+  defineButton 2153
+
+    on overUpToOverDown
+      gotoFrame 7
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2153
+
+  defineButton 2154
+
+    on overUpToOverDown
+      gotoFrame 7
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2154
+
+  defineMovieClip 2156 // total frames: 40
+
+    frame 39
+      stop
+    end // of frame 39
+  end // of defineMovieClip 2156
+
+  defineMovieClip 2157 // total frames: 48
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      setTarget '/16g'
+        play
+      end
+    end // of frame 7
+
+    frame 47
+      stop
+    end // of frame 47
+  end // of defineMovieClip 2157
+
+  defineButton 2159
+
+    on overUpToOverDown
+      gotoFrame 7
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2159
+
+  defineButton 2160
+
+    on overUpToOverDown
+      gotoFrame 8
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2160
+
+  defineMovieClip 2161 // total frames: 10
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 7
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 7
+
+    frame 8
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 8
+
+    frame 9
+      stop
+      setTarget '/16g'
+        play
+      end
+    end // of frame 9
+  end // of defineMovieClip 2161
+
+  defineButton 2163
+
+    on overUpToOverDown
+      gotoFrame 7
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2163
+
+  defineMovieClip 2165 // total frames: 48
+
+    frame 6
+      stop
+    end // of frame 6
+
+    frame 47
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 47
+  end // of defineMovieClip 2165
+
+  defineMovieClip 2166 // total frames: 31
+
+    frame 1
+      stop
+    end // of frame 1
+
+    frame 2
+      stop
+    end // of frame 2
+
+    frame 3
+      stop
+    end // of frame 3
+
+    frame 4
+      stop
+    end // of frame 4
+
+    frame 5
+      stop
+    end // of frame 5
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 2166
+
+  defineMovieClip 2294 // total frames: 132
+
+    frame 131
+      setTarget '/'
+        play
+      end
+    end // of frame 131
+  end // of defineMovieClip 2294
+
+  frame 865
+    stop
+  end // of frame 865
+
+  frame 900
+    stop
+  end // of frame 900
+
+  defineMovieClip 2330 // total frames: 1
+  end // of defineMovieClip 2330
+
+  defineButton 2333
+
+    on overUpToOverDown
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+      nextFrame
+    end
+  end // of defineButton 2333
+
+  defineMovieClip 2335 // total frames: 1
+  end // of defineMovieClip 2335
+
+  defineMovieClip 2345 // total frames: 1
+  end // of defineMovieClip 2345
+
+  defineMovieClip 2347 // total frames: 1
+  end // of defineMovieClip 2347
+
+  defineMovieClip 2349 // total frames: 1
+  end // of defineMovieClip 2349
+
+  defineMovieClip 2351 // total frames: 1
+  end // of defineMovieClip 2351
+
+  defineMovieClip 2353 // total frames: 1
+  end // of defineMovieClip 2353
+
+  defineMovieClip 2355 // total frames: 1
+  end // of defineMovieClip 2355
+
+  defineMovieClip 2356 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 2356
+
+  defineMovieClip 2357 // total frames: 11
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 10
+      stop
+      setTarget '/17g/17b'
+        gotoFrame 90
+        play
+      end
+    end // of frame 10
+  end // of defineMovieClip 2357
+
+  defineMovieClip 2385 // total frames: 11
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 10
+      stop
+      setTarget '/17g/17b'
+        gotoFrame 90
+        play
+      end
+    end // of frame 10
+  end // of defineMovieClip 2385
+
+  defineButton 2387
+
+    on idleToOverUp
+      play
+    end
+
+    on overUpToOverDown
+      setTarget '/17g/17b'
+        gotoFrame 103
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2387
+
+  defineMovieClip 2388 // total frames: 3
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 2
+      setTarget '/17g/17b'
+        gotoFrame 50
+        play
+      end
+    end // of frame 2
+  end // of defineMovieClip 2388
+
+  defineMovieClip 2398 // total frames: 25
+
+    frame 9
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/sh'
+        play
+      end
+    end // of frame 9
+
+    frame 17
+      setTarget '/xuezhi/xuezhi01'
+        play
+      end
+      setTarget '/sh'
+        play
+      end
+    end // of frame 17
+
+    frame 24
+      setTarget '/17g/17b'
+        play
+      end
+    end // of frame 24
+  end // of defineMovieClip 2398
+
+  defineButton 2401
+
+    on idleToOverUp
+      play
+    end
+
+    on overUpToOverDown
+      setTarget '/17g/17b'
+        gotoFrame 103
+      end
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2401
+
+  defineMovieClip 2402 // total frames: 3
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 2
+      setTarget '/17g/17b'
+        gotoFrame 74
+        play
+      end
+    end // of frame 2
+  end // of defineMovieClip 2402
+
+  defineButton 2406
+
+    on overUpToOverDown
+      gotoFrame 103
+      play
+      setTarget '/qiangl'
+        play
+      end
+      setTarget '/drag_01/hua'
+        gotoFrame 1
+        play
+      end
+      setTarget '/js01/0001'
+        play
+      end
+    end
+  end // of defineButton 2406
+
+  defineMovieClip 2419 // total frames: 26
+  end // of defineMovieClip 2419
+
+  defineMovieClip 2420 // total frames: 104
+
+    frame 42
+      stop
+    end // of frame 42
+
+    frame 70
+      stop
+    end // of frame 70
+
+    frame 89
+      gotoFrame 35
+      play
+    end // of frame 89
+
+    frame 102
+      stop
+    end // of frame 102
+
+    frame 103
+      stop
+      setTarget '/17g'
+        play
+      end
+    end // of frame 103
+  end // of defineMovieClip 2420
+
+  defineMovieClip 2421 // total frames: 70
+
+    frame 28
+      stop
+    end // of frame 28
+
+    frame 69
+      setTarget '/'
+        play
+      end
+    end // of frame 69
+  end // of defineMovieClip 2421
+
+  frame 901
+    stop
+    push 0.0, 'Mouse'
+    getVariable
+    push 'show'
+    callMethod
+    pop
+  end // of frame 901
+
+  defineMovieClip 2450 // total frames: 1
+  end // of defineMovieClip 2450
+
+  defineMovieClip 2451 // total frames: 4
+  end // of defineMovieClip 2451
+
+  defineMovieClip 2452 // total frames: 1
+  end // of defineMovieClip 2452
+
+  defineMovieClip 2453 // total frames: 3
+  end // of defineMovieClip 2453
+
+  defineMovieClip 2456 // total frames: 7
+  end // of defineMovieClip 2456
+
+  defineMovieClip 2655 // total frames: 1
+  end // of defineMovieClip 2655
+
+  defineMovieClip 2801 // total frames: 123
+
+    frame 122
+      stop
+    end // of frame 122
+  end // of defineMovieClip 2801
+
+  defineMovieClip 2804 // total frames: 1
+  end // of defineMovieClip 2804
+
+  defineMovieClip 3104 // total frames: 1
+  end // of defineMovieClip 3104
+
+  defineMovieClip 3106 // total frames: 283
+
+    frame 282
+      setTarget '/and01'
+        play
+      end
+    end // of frame 282
+  end // of defineMovieClip 3106
+
+  defineMovieClip 3120 // total frames: 1
+  end // of defineMovieClip 3120
+
+  defineMovieClip 3123 // total frames: 1
+  end // of defineMovieClip 3123
+
+  defineMovieClip 3125 // total frames: 1
+  end // of defineMovieClip 3125
+
+  defineMovieClip 3695 // total frames: 1
+  end // of defineMovieClip 3695
+
+  defineMovieClip 3697 // total frames: 1
+  end // of defineMovieClip 3697
+
+  defineMovieClip 3699 // total frames: 1
+  end // of defineMovieClip 3699
+
+  defineMovieClip 3701 // total frames: 1
+  end // of defineMovieClip 3701
+
+  defineMovieClip 3703 // total frames: 1
+  end // of defineMovieClip 3703
+
+  defineMovieClip 3705 // total frames: 1
+  end // of defineMovieClip 3705
+
+  defineMovieClip 3707 // total frames: 1
+  end // of defineMovieClip 3707
+
+  defineMovieClip 3709 // total frames: 1
+  end // of defineMovieClip 3709
+
+  defineMovieClip 3711 // total frames: 1
+  end // of defineMovieClip 3711
+
+  defineMovieClip 3713 // total frames: 1
+  end // of defineMovieClip 3713
+
+  defineMovieClip 3715 // total frames: 1
+  end // of defineMovieClip 3715
+
+  defineMovieClip 3717 // total frames: 1
+  end // of defineMovieClip 3717
+
+  defineMovieClip 3719 // total frames: 1
+  end // of defineMovieClip 3719
+
+  defineMovieClip 3721 // total frames: 1
+  end // of defineMovieClip 3721
+
+  defineMovieClip 3723 // total frames: 1
+  end // of defineMovieClip 3723
+
+  defineMovieClip 3725 // total frames: 1
+  end // of defineMovieClip 3725
+
+  defineMovieClip 3728 // total frames: 11
+
+    frame 10
+      stop
+    end // of frame 10
+  end // of defineMovieClip 3728
+
+  defineMovieClip 3809 // total frames: 1
+  end // of defineMovieClip 3809
+
+  defineMovieClip 3810 // total frames: 441
+
+    frame 440
+      stop
+      setTarget '/'
+        play
+      end
+    end // of frame 440
+  end // of defineMovieClip 3810
+
+  defineMovieClip 3811 // total frames: 441
+
+    frame 440
+      stop
+    end // of frame 440
+  end // of defineMovieClip 3811
+
+  defineMovieClip 3812 // total frames: 203
+
+    frame 3
+      setTarget '/js01/ddad'
+        play
+      end
+      setTarget '/js01/ddad01'
+        play
+      end
+    end // of frame 3
+
+    frame 201
+      stop
+    end // of frame 201
+
+    frame 202
+      stop
+    end // of frame 202
+  end // of defineMovieClip 3812
+
+  defineMovieClip 3813 // total frames: 1
+  end // of defineMovieClip 3813
+
+  defineMovieClip 3814 // total frames: 20
+
+    frame 19
+      stop
+    end // of frame 19
+  end // of defineMovieClip 3814
+
+  frame 902
+    stop
+  end // of frame 902
+
+  defineMovieClip 3816 // total frames: 1
+  end // of defineMovieClip 3816
+
+  defineMovieClip 3818 // total frames: 1
+  end // of defineMovieClip 3818
+
+  defineMovieClip 3820 // total frames: 1
+  end // of defineMovieClip 3820
+
+  defineMovieClip 3821 // total frames: 1
+  end // of defineMovieClip 3821
+
+  defineMovieClip 3824 // total frames: 1
+  end // of defineMovieClip 3824
+
+  defineMovieClip 3825 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 3825
+
+  defineButton 3826
+
+    on overDownToOverUp
+      setTarget '/'
+        gotoFrame 0
+        play
+      end
+    end
+  end // of defineButton 3826
+
+  defineMovieClip 3829 // total frames: 1
+  end // of defineMovieClip 3829
+
+  defineButton 3830
+
+    on idleToOverUp
+      stop
+    end
+
+    on overUpToIdle,overDownToOverUp
+      play
+    end
+  end // of defineButton 3830
+
+  defineMovieClip 3831 // total frames: 190
+  end // of defineMovieClip 3831
+
+  defineMovieClip 3833 // total frames: 1
+  end // of defineMovieClip 3833
+
+  defineButton 3834
+
+    on overDownToOverUp
+      gotoFrame 1
+      play
+    end
+  end // of defineButton 3834
+
+  defineMovieClip 3836 // total frames: 1
+  end // of defineMovieClip 3836
+
+  defineButton 3837
+
+    on overDownToOverUp
+      gotoFrame 46
+      play
+    end
+  end // of defineButton 3837
+
+  defineButton 3839
+
+    on overDownToOverUp
+      gotoFrame 33
+      play
+    end
+  end // of defineButton 3839
+
+  defineMovieClip 3843 // total frames: 1
+  end // of defineMovieClip 3843
+
+  defineMovieClip 3846 // total frames: 200
+
+    frame 199
+      stop
+    end // of frame 199
+  end // of defineMovieClip 3846
+
+  defineMovieClip 3848 // total frames: 1
+  end // of defineMovieClip 3848
+
+  defineMovieClip 3849 // total frames: 6
+  end // of defineMovieClip 3849
+
+  defineButton 3850
+
+    on overDownToOverUp
+      gotoFrame 22
+      play
+    end
+  end // of defineButton 3850
+
+  defineButton 3854
+
+    on overDownToOverUp
+      gotoFrame 78
+      play
+    end
+  end // of defineButton 3854
+
+  defineMovieClip 3857 // total frames: 139
+
+    frame 138
+      stop
+    end // of frame 138
+  end // of defineMovieClip 3857
+
+  defineButton 3858
+
+    on overDownToOverUp
+      gotoFrame 67
+      play
+    end
+  end // of defineButton 3858
+
+  defineMovieClip 3861 // total frames: 91
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 1
+      setTarget '/ssss/gzw'
+        stop
+      end
+    end // of frame 1
+
+    frame 21
+      stop
+    end // of frame 21
+
+    frame 32
+      gotoFrame 0
+      setTarget '/ssss/gzw'
+        play
+      end
+    end // of frame 32
+
+    frame 46
+      setTarget '/ssss/gzw'
+        stop
+      end
+    end // of frame 46
+
+    frame 66
+      stop
+    end // of frame 66
+
+    frame 77
+      gotoFrame 0
+      setTarget '/ssss/gzw'
+        play
+      end
+    end // of frame 77
+
+    frame 90
+      gotoFrame 1
+      play
+    end // of frame 90
+  end // of defineMovieClip 3861
+
+  defineMovieClip 3862 // total frames: 75
+
+    frame 74
+      stop
+    end // of frame 74
+  end // of defineMovieClip 3862
+end

@@ -1,0 +1,23 @@
+on(release){
+   play();
+   tellTarget("/09g/09g01/09g05/09g06")
+   {
+      stop();
+   }
+   tellTarget("/09g/09g01/09g05")
+   {
+      gotoAndStop(19);
+   }
+   tellTarget("/qiangl")
+   {
+      play();
+   }
+   tellTarget("/drag_01/hua")
+   {
+      gotoAndPlay(2);
+   }
+   tellTarget("/js01/0001")
+   {
+      play();
+   }
+}

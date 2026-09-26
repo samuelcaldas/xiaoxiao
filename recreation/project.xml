@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Xiao Xiao 4 Recreation" package="org.xiaoxiao.xx4" version="0.1.0" company="Preservation" />
+	<app main="Main" path="export" file="XiaoXiao4" />
+
+	<window width="550" height="400" fps="18" background="#000000" />
+
+	<source path="src" />
+
+	<haxelib name="openfl" />
+	<haxelib name="lime" />
+
+	<assets path="assets/shapes" rename="shapes" embed="false" />
+	<assets path="assets/sounds" rename="sounds" embed="false" />
+	<assets path="assets/images" rename="images" embed="false" />
+</project>

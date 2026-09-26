@@ -1,0 +1,6 @@
+on(release){
+   tellTarget("/")
+   {
+      play();
+   }
+}

@@ -1,0 +1,20 @@
+on(press){
+   Mouse.hide();
+   nextFrame();
+   tellTarget("/xuezhi")
+   {
+      gotoAndStop(1);
+   }
+   tellTarget("/drag_01/drag_01a")
+   {
+      gotoAndStop(1);
+   }
+   tellTarget("/drag_01")
+   {
+      gotoAndStop(1);
+   }
+   tellTarget("/sh")
+   {
+      gotoAndStop(1);
+   }
+}

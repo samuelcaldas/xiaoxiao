@@ -1,0 +1,4 @@
+tellTarget("/ssss/gzw")
+{
+   stop();
+}

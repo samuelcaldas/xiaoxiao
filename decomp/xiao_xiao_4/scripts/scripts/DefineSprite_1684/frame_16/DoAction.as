@@ -1,0 +1,12 @@
+tellTarget("/xuezhi/xuezhi01")
+{
+   play();
+}
+tellTarget("/temp01")
+{
+   play();
+}
+tellTarget("/11g/11gc")
+{
+   play();
+}

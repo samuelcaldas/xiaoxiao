@@ -1,0 +1,4 @@
+tellTarget("slz")
+{
+   play();
+}

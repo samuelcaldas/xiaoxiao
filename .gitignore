@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporaries
+*.tmp
+*.log
+.cache/
+tmp/*
+!tmp/.gitkeep
+
+# Build outputs
+coverage/
+dist/
+build/
+node_modules/
+vendor/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Decomp intermediaries (keep source, ignore generated diffs/frames)
+decomp/*/match/frames/
+decomp/*/match/*.diff
+decomp/*/swfdump_*.txt
+
+# Haxe/OpenFL build
+recreation/bin/
+recreation/export/
+.haxelib/
+
+# Tool caches
+.ffdec/
+
+# Antigravity
+.playwright-mcp/

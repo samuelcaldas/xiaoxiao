@@ -1,0 +1,4 @@
+tellTarget("/sh")
+{
+   play();
+}

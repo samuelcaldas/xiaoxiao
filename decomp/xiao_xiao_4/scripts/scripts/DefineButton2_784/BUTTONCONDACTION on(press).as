@@ -1,0 +1,10 @@
+on(press){
+   tellTarget("/qiangl")
+   {
+      play();
+   }
+   tellTarget("/qiangl/jinggao")
+   {
+      gotoAndStop(2);
+   }
+}

@@ -1,0 +1,2 @@
+stop();
+gotoAndPlay(2);

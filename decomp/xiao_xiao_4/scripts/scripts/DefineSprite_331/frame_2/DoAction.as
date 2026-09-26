@@ -1,0 +1,10 @@
+stop();
+Mouse.show();
+tellTarget("/drag_01/drag_01a")
+{
+   gotoAndStop(2);
+}
+tellTarget("/geme0")
+{
+   nextFrame();
+}

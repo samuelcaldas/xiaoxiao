@@ -1,0 +1,213 @@
+Parsing 'tmp/rebuilt_xiao_xiao_4.swf':
+  // SWF compression: none
+  // SWF version: 5
+  // number of frames: 903
+  // frame rate: 18 fps
+  // resolution: 500x375 px
+
+  frame 0
+    push 0.0, 'Mouse'
+    getVariable
+    push 'show'
+    callMethod
+    pop
+  end // of frame 0
+
+  defineMovieClip 2 // total frames: 7
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 2
+
+  defineMovieClip 5 // total frames: 100
+
+    frame 0
+      stop
+    end // of frame 0
+
+    frame 99
+      stop
+    end // of frame 99
+  end // of defineMovieClip 5
+
+  defineMovieClip 11 // total frames: 1
+  end // of defineMovieClip 11
+
+  defineMovieClip 38 // total frames: 41
+  end // of defineMovieClip 38
+
+  frame 1
+    constants 'byteloaded', '_root', 'getBytesLoaded', 'bytetotal', 'getBytesTotal', 'loaded', 't', 'percent', '%  ( ', ' K / ', ' K )', '\r下载速度：', ' K/s', 'load_bar', 'gotoAndStop'  
+    push c:0, 0.0, c:1
+    getVariable
+    push c:2
+    callMethod
+    setVariable
+    push c:3, 0.0, c:1
+    getVariable
+    push c:4
+    callMethod
+    setVariable
+    push c:5, c:0
+    getVariable
+    push c:3
+    getVariable
+    divide
+    push 100
+    multiply
+    int
+    setVariable
+    push c:6
+    getTimer
+    setVariable
+    push c:7, c:5
+    getVariable
+    push c:8
+    add
+    push c:0
+    getVariable
+    push 1000
+    divide
+    int
+    add
+    push c:9
+    add
+    push c:3
+    getVariable
+    push 1000
+    divide
+    int
+    add
+    push c:10
+    add
+    setVariable
+    push c:7, c:7
+    getVariable
+    push c:11
+    add
+    push c:0
+    getVariable
+    push c:6
+    getVariable
+    divide
+    push 100
+    multiply
+    int
+    push 100
+    divide
+    add
+    push c:12
+    add
+    setVariable
+    push c:5
+    getVariable
+    push 1, c:13
+    getVariable
+    push c:14
+    callMethod
+    pop
+  end // of frame 1
+
+  frame 13
+    push 'byteloaded'
+    getVariable
+    push 'bytetotal'
+    getVariable
+    equals
+    not
+    branchIfTrue label1
+    gotoFrame 14
+    play
+    branch label2
+   label1:
+    gotoFrame 1
+    play
+   label2:
+  end // of frame 13
+
+  frame 29
+    stop
+  end // of frame 29
+
+  defineMovieClip 42 // total frames: 1
+  end // of defineMovieClip 42
+
+  defineMovieClip 45 // total frames: 1
+  end // of defineMovieClip 45
+
+  defineMovieClip 110 // total frames: 1
+  end // of defineMovieClip 110
+
+  defineMovieClip 113 // total frames: 1
+  end // of defineMovieClip 113
+
+  defineMovieClip 166 // total frames: 12
+  end // of defineMovieClip 166
+
+  defineMovieClip 167 // total frames: 54
+  end // of defineMovieClip 167
+
+  defineMovieClip 179 // total frames: 1
+  end // of defineMovieClip 179
+
+  defineMovieClip 186 // total frames: 7
+
+    frame 6
+      stop
+    end // of frame 6
+  end // of defineMovieClip 186
+
+  defineMovieClip 226 // total frames: 1
+  end // of defineMovieClip 226
+
+  defineMovieClip 241 // total frames: 1
+  end // of defineMovieClip 241
+
+  defineMovieClip 242 // total frames: 34
+
+    frame 33
+      stop
+    end // of frame 33
+  end // of defineMovieClip 242
+
+  defineMovieClip 244 // total frames: 1
+  end // of defineMovieClip 244
+
+  defineMovieClip 246 // total frames: 1
+  end // of defineMovieClip 246
+
+  defineMovieClip 248 // total frames: 1
+  end // of defineMovieClip 248
+
+  defineMovieClip 250 // total frames: 1
+  end // of defineMovieClip 250
+
+  defineMovieClip 251 // total frames: 8
+
+    frame 7
+      stop
+    end // of frame 7
+  end // of defineMovieClip 251
+
+  defineMovieClip 253 // total frames: 1
+  end // of defineMovieClip 253
+
+  defineMovieClip 254 // total frames: 13
+
+    frame 12
+      stop
+    end // of frame 12
+  end // of defineMovieClip 254
+
+  defineButton 267
+
+    on
+      toggleQuality
+      setTarget '/'
+        gotoFrame 32
+        play
+      end
+    end
+
+    on keyPress _END

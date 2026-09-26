@@ -1,0 +1,5 @@
+stop();
+tellTarget("/qiangl")
+{
+   play();
+}

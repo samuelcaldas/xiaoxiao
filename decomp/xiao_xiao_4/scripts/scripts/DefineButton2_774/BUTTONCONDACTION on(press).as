@@ -1,0 +1,10 @@
+on(press){
+   tellTarget("qiangl")
+   {
+      play();
+   }
+   tellTarget("drag_01.hua")
+   {
+      gotoAndPlay(5);
+   }
+}

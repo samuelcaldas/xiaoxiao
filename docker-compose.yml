@@ -1,0 +1,12 @@
+services:
+  decomp-tools:
+    build:
+      context: ./tools
+      dockerfile: Dockerfile
+    container_name: xiaoxiao-decomp-tools
+    volumes:
+      - .:/workspace
+    environment:
+      - TZ=America/Sao_Paulo
+    working_dir: /workspace
+    command: /bin/bash
